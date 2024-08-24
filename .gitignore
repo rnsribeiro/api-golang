@@ -1,0 +1,50 @@
+# Binários e executáveis compilados
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Diretório bin, se você o utiliza para armazenar seus binários
+bin/
+
+# Diretório vendor, se você usa vendoring para dependências
+vendor/
+
+# Arquivos de configuração específicos de IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cache do Go
+/go/pkg/
+
+
+# Diretório de build
+build/
+
+# Arquivos de log
+*.log
+
+# Dependências específicas do módulo Go (cache, módulos)
+go.sum
+go.mod
+
+# Ignora os diretórios testdata (comuns para armazenar dados de teste)
+testdata/
+
+# Arquivos de lock e pacote
+*.lock
+*.tar.gz
+*.zip
+
+# Cobertura de código
+*.coverprofile
+
+# Arquivos de backup
+*~
+
+# Arquivos de ambiente
+.env
